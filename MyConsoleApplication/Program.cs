@@ -23,7 +23,7 @@ namespace MyConsoleApplication
                     case 1:
                         Console.WriteLine("You have chosen Add Customer : Please fill the below details");
                         AddCustomer();
-                        break; 
+                        break;  //break
                     case 2:
                         Console.WriteLine("You have chosen Add Supplier : Please fill the below details");
                         AddSupplier();
