@@ -1,0 +1,12 @@
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\bin\Release\netcoreapp2.1\ApplicationDAL.deps.json
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\bin\Release\netcoreapp2.1\ApplicationDAL.dll
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\bin\Release\netcoreapp2.1\ApplicationDAL.pdb
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\bin\Release\netcoreapp2.1\ApplicationEntities.dll
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\bin\Release\netcoreapp2.1\ApplicationEntities.pdb
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\obj\Release\netcoreapp2.1\ApplicationDAL.csproj.AssemblyReference.cache
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\obj\Release\netcoreapp2.1\ApplicationDAL.AssemblyInfoInputs.cache
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\obj\Release\netcoreapp2.1\ApplicationDAL.AssemblyInfo.cs
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\obj\Release\netcoreapp2.1\ApplicationDAL.csproj.CoreCompileInputs.cache
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\obj\Release\netcoreapp2.1\ApplicationDAL.csproj.CopyComplete
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\obj\Release\netcoreapp2.1\ApplicationDAL.dll
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationDAL\obj\Release\netcoreapp2.1\ApplicationDAL.pdb

@@ -1,0 +1,17 @@
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\bin\Release\netcoreapp2.1\MyConsoleApplication.deps.json
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\bin\Release\netcoreapp2.1\MyConsoleApplication.runtimeconfig.json
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\bin\Release\netcoreapp2.1\MyConsoleApplication.runtimeconfig.dev.json
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\bin\Release\netcoreapp2.1\MyConsoleApplication.dll
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\bin\Release\netcoreapp2.1\MyConsoleApplication.pdb
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\bin\Release\netcoreapp2.1\ApplicationDAL.dll
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\bin\Release\netcoreapp2.1\ApplicationEntities.dll
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\bin\Release\netcoreapp2.1\ApplicationDAL.pdb
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\bin\Release\netcoreapp2.1\ApplicationEntities.pdb
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\obj\Release\netcoreapp2.1\MyConsoleApplication.csproj.AssemblyReference.cache
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\obj\Release\netcoreapp2.1\MyConsoleApplication.AssemblyInfoInputs.cache
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\obj\Release\netcoreapp2.1\MyConsoleApplication.AssemblyInfo.cs
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\obj\Release\netcoreapp2.1\MyConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\obj\Release\netcoreapp2.1\MyConsoleApplication.csproj.CopyComplete
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\obj\Release\netcoreapp2.1\MyConsoleApplication.dll
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\obj\Release\netcoreapp2.1\MyConsoleApplication.pdb
+C:\Users\navee\Desktop\C# Programs\MiniProject\MyConsoleApplication\obj\Release\netcoreapp2.1\MyConsoleApplication.genruntimeconfig.cache

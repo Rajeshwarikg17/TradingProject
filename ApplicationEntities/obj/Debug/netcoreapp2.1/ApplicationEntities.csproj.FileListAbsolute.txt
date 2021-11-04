@@ -1,0 +1,9 @@
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationEntities\bin\Debug\netcoreapp2.1\ApplicationEntities.deps.json
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationEntities\bin\Debug\netcoreapp2.1\ApplicationEntities.dll
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationEntities\bin\Debug\netcoreapp2.1\ApplicationEntities.pdb
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationEntities\obj\Debug\netcoreapp2.1\ApplicationEntities.csproj.AssemblyReference.cache
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationEntities\obj\Debug\netcoreapp2.1\ApplicationEntities.AssemblyInfoInputs.cache
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationEntities\obj\Debug\netcoreapp2.1\ApplicationEntities.AssemblyInfo.cs
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationEntities\obj\Debug\netcoreapp2.1\ApplicationEntities.csproj.CoreCompileInputs.cache
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationEntities\obj\Debug\netcoreapp2.1\ApplicationEntities.dll
+C:\Users\navee\Desktop\C# Programs\MiniProject\ApplicationEntities\obj\Debug\netcoreapp2.1\ApplicationEntities.pdb
