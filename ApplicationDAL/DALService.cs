@@ -17,7 +17,7 @@ namespace ApplicationDAL
 
                 conn.Open();
 
-                SqlCommand comm = new SqlCommand($"insert into Customer values({cust.TradingPartnerId},'{cust.TradingPartnerName}','{cust.City}',{cust.CreditLimit},'{cust.EmailId}')", conn);
+                SqlCommand comm = new SqlCommand($"insert into Customer values('{cust.TradingPartnerName}','{cust.City}',{cust.CreditLimit},'{cust.EmailId}')", conn);
                 try
                 {
                     comm.ExecuteNonQuery();
@@ -38,7 +38,7 @@ namespace ApplicationDAL
 
                 conn.Open();
 
-                SqlCommand comm = new SqlCommand($"insert into Supplier values({supp.TradingPartnerId},'{supp.TradingPartnerName}','{supp.City}',{supp.CreditBalance},'{supp.PanNo}')", conn);
+                SqlCommand comm = new SqlCommand($"insert into Supplier values('{supp.TradingPartnerName}','{supp.City}',{supp.CreditBalance},'{supp.PanNo}')", conn);
                 try
                 {
                     comm.ExecuteNonQuery();

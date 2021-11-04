@@ -15,10 +15,10 @@ namespace ApplicationEntities
             List<string> errors = new List<string>();
 
             //Validation for TradingPartnerId
-            if (TradingPartnerId <= 0)
-            {
-                errors.Add("Trading Partner Id should be non-negative and greater than zero");
-            }
+            //if (TradingPartnerId <= 0)
+            //{
+            //    errors.Add("Trading Partner Id should be non-negative and greater than zero");
+            //}
 
             //Validation for TradingPartnerName
 

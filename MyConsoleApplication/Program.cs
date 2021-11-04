@@ -21,11 +21,11 @@ namespace MyConsoleApplication
                 switch (input)
                 {
                     case 1:
-                        Console.WriteLine("You have chosen Add Customer : Please fill the below details");
+                        Console.WriteLine("\nYou have chosen Add Customer : Please fill the below details\n");
                         AddCustomer();
-                        break;  //break
+                        break;
                     case 2:
-                        Console.WriteLine("You have chosen Add Supplier : Please fill the below details");
+                        Console.WriteLine("You have chosen Add Supplier : Please fill the below details\n");
                         AddSupplier();
                         break;
                     case 3:
@@ -58,10 +58,10 @@ namespace MyConsoleApplication
         private static void AddCustomer()
         {
             Customer c1 = new Customer();
-            Console.Write("Enter a Trading partner Id : ");
-            int id = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter a Trading partner Id : ");
+            //int id = Convert.ToInt32(Console.ReadLine());
             
-            c1.TradingPartnerId = id;
+            //c1.TradingPartnerId = id;
 
             Console.Write("Enter a Trading partner Name : ");
             string name = (Console.ReadLine());
@@ -84,11 +84,11 @@ namespace MyConsoleApplication
             if(errors.Count == 0)
             {
                 DALService.SaveCustomerDetails(c1);
-                Console.WriteLine("Customer details are saved to dB");
+                Console.WriteLine("\nCustomer details are saved to dB");
             }
             else
             {
-                Console.WriteLine("\n Validation failed. Please find the below errors : \n");
+                Console.WriteLine("\nValidation failed. Please find the below errors : \n");
                 foreach( string err in errors)
                 {
                     Console.WriteLine(err);
@@ -100,10 +100,10 @@ namespace MyConsoleApplication
         private static void AddSupplier()
         {
             Supplier s1 = new Supplier();
-            Console.Write("Enter a Trading partner Id : ");
-            int id = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Enter a Trading partner Id : ");
+            //int id = Convert.ToInt32(Console.ReadLine());
 
-            s1.TradingPartnerId = id;
+            //s1.TradingPartnerId = id;
 
             Console.Write("Enter a Trading partner Name : ");
             string name = (Console.ReadLine());
@@ -126,7 +126,7 @@ namespace MyConsoleApplication
             if (errors.Count == 0)
             {
                 DALService.SaveSupplierDetails(s1);
-                Console.WriteLine("Supplier details are saved to dB");
+                Console.WriteLine("\nSupplier details are saved to dB");
             }
             else
             {
@@ -164,23 +164,25 @@ namespace MyConsoleApplication
 
         private static void SaveFileCustomer()
         {
-            string path = @"D:\Customer\Cust.txt";
+            string path = @"D:\Customer\Cust_Name.txt";
             Console.WriteLine("Enter a ID to export to file");
             int id = Convert.ToInt32(Console.ReadLine());
             Customer c = DALService.GetCustomerById(id);
+            path = path.Replace("Cust_Name", c.TradingPartnerName);
             c.SaveToFile(path);
-
+            Console.WriteLine("Customer Details are exported to a file");
         }
 
         private static void SaveFileSupplier()
         {
-            string path = @"D:\Customer\Supp.txt";
+            string path = @"D:\Customer\Sup_Name.txt";
             Console.WriteLine("Enter a ID to export to file");
             int id = Convert.ToInt32(Console.ReadLine());
             Supplier s = DALService.GetSupplierById(id);
-            path= path.Replace("Supp", s.TradingPartnerName);
-
+            path= path.Replace("Sup_Name", s.TradingPartnerName);
             s.SaveToFile(path);
+            Console.WriteLine("Supplier Details are exported to a file");
+
 
         }
     }

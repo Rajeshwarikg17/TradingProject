@@ -16,12 +16,7 @@ namespace ApplicationEntities
 
         public override void SaveToFile(string filepath)
         {
-            //MemoryStream memorystream = new MemoryStream();
-            //BinaryFormatter bf = new BinaryFormatter();
-            //bf.Serialize(memorystream, this);
-            //byte[] yourBytesToDb = memorystream.ToArray();
             Serialize(this, filepath);
-
         }
 
         //Serializing the List  
